@@ -1,4 +1,8 @@
+import React from "react";
+
 import "./App.css";
+
+import CitySearch from "./CitySearch";
 
 function App() {
   return (
@@ -7,12 +11,14 @@ function App() {
         <p>SheCodes React Project 1</p>
       </header>
 
+      <CitySearch />
+
       <footer className="App-footer">
         <p>
           <span className="Footer-emoji">🔗</span>{" "}
           <a
             className="App-link"
-            href="#"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -21,7 +27,7 @@ function App() {
           Code |{" "}
           <a
             className="App-link"
-            href="#"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -35,10 +41,3 @@ function App() {
 }
 
 export default App;
-
-<a
-  className="App-link"
-  href="https://reactjs.org"
-  target="_blank"
-  rel="noopener noreferrer"
-></a>;
