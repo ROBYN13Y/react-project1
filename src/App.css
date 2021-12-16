@@ -1,19 +1,28 @@
+:root {
+  --pri-color: rgb(26, 95, 151);
+  --sec-color: rgb(35, 112, 212);
+  --background-color: rgba(163, 163, 230, 0.137);
+  --tri-color: rgba(128, 128, 128, 0.685);
+}
+
 .App {
   background-color: #282c345b;
 }
 
 .App-header {
-  padding-top: 5px;
+  padding-top: 6px;
   padding-left: 10px;
+  margin-bottom: 25px;
   min-height: 5vh;
   font-size: calc(6px + 2vmin);
   color: white;
 }
 
 .App-footer {
+  margin-top: 80px;
   padding-left: 10px;
   min-height: 3vh;
-  font-size: calc(4px + 1vmin);
+  font-size: calc(5px + 1vmin);
   color: white;
 }
 
