@@ -5,20 +5,19 @@
   --tri-color: rgba(128, 128, 128, 0.685);
 }
 
-.App {
+.container {
   background-color: #282c345b;
 }
 
-.App-header {
+header {
   padding-top: 6px;
   padding-left: 10px;
-  margin-bottom: 25px;
-  min-height: 5vh;
+  min-height: 6vh;
   font-size: calc(6px + 2vmin);
   color: white;
 }
 
-.App-footer {
+footer {
   margin-top: 80px;
   padding-left: 10px;
   min-height: 3vh;
