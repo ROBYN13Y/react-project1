@@ -72,10 +72,10 @@ export default function CitySearch() {
               />
               <h6 id="city-temp-text">
                 {weather.temp}
-                <a href="/" id="c">
+                <a href="#" id="c">
                   °C
                 </a>
-                <a href="/" id="f">
+                <a href="#" id="f">
                   °F
                 </a>
               </h6>

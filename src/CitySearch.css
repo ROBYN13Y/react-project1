@@ -14,8 +14,8 @@
 
 #Form-main-label {
   display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
   color: var(--pri-color);
   font-size: calc(10px + 2vmin);
 }
@@ -48,12 +48,12 @@ input::placeholder {
   font-size: 15px;
 }
 
-.CurrentCity-loading {
+.CurrentCity {
   display: block;
   margin: auto;
-  margin-bottom: 20px;
-  border: 2px solid var(--sec-color);
-  padding: 15px;
+  border: 2px solid rgba(35, 112, 212, 0.479);
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
   max-width: 60%;
   margin-top: 30px;
 }
@@ -65,55 +65,74 @@ input::placeholder {
 #col-text {
   width: 70%;
   text-align: left;
+  padding-left: 5px;
 }
 
-#col-text h2,
-h5,
-h6 {
+#input-city-h2,
+#temp-description-h6,
+#wind-speed-h6,
+#city-temp-text,
+#c {
+  color: var(--pri-color);
   margin: 0;
+}
+
+#current-day-time-h5,
+#month-day-year-h6,
+#f {
+  margin: 0;
+  color: var(--tri-color);
+}
+
+#input-city-h2 {
+  margin-top: 2px;
+  margin-bottom: 12px;
+  font-size: 40px;
+}
+
+#current-day-time-h5 {
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+
+#month-day-year-h6 {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+#temp-description-h6 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+#temp-description-h6::first-letter {
+  text-transform: capitalize;
+}
+
+#wind-speed-h6 {
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
 #col-emoji {
   width: 30%;
-  text-align: right;
+  text-align: center;
 }
 
-a {
-  text-decoration: none;
-}
-
-.Weather-icon {
-  position: relative;
-  top: 25px;
-}
-
-#city-temp {
-  position: relative;
-  top: 30px;
-}
-
-#c,
-#f,
-#city-temp,
-#col-text p {
-  color: var(--tri-color);
-}
-
-#city-temp {
-  font-size: 45px;
-}
-
-#c {
-  margin-left: 3px;
-}
-
-#f {
-  margin-left: 6px;
+#city-temp-text {
+  font-size: 40px;
 }
 
 #c,
 #f {
   font-size: 15px;
   position: relative;
-  top: -25px;
+  text-decoration: none;
+  top: -22px;
+  margin-left: 5px;
+}
+
+#c:hover,
+#f:hover {
+  font-size: 18px;
 }
