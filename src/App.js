@@ -6,14 +6,14 @@ import CitySearch from "./CitySearch";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="container">
+      <header>
         <p>SheCodes React Project 1</p>
       </header>
 
       <CitySearch />
 
-      <footer className="App-footer">
+      <footer>
         <p>
           <span className="Footer-emoji">🔗</span>{" "}
           <a
